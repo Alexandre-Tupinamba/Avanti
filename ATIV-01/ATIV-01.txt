@@ -1,0 +1,29 @@
+1. Explique, com suas palavras, o que é machine learning?
+
+Machine learning é um conjunto de técnicas matemáticas utilizadas para treinar um modelo que aprende a identificar padrões em um conjunto de dados. Em vez de programar cada regra, a gente deixa o modelo encontrar relações por conta própria a partir dos exemplos.
+
+
+2. Explique o conceito de conjunto de treinamento, conjunto de validação e
+conjunto de teste em machine learning.
+
+Essa divisão em conjunto de treinamento, validação e teste é necessária para que o modelo não decore as respostas da base de treino, fenômeno conhecido como overfitting. Para evitar isso, usamos o conjunto de treinamento para o modelo aprender, o de validação durante o processo para ver se ele realmente está generalizando, e o de teste só no final, quando o treinamento termina, para medir o desempenho em dados que ele nunca viu. Assim, conseguimos avaliar se o aprendizado faz sentido de verdade.
+
+3. Explique como você lidaria com dados ausentes em um conjunto de dados
+de treinamento.
+
+Primeiro eu conversaria com um especialista para saber se esses dados são muito importantes ou se eles podem ser descartados. Caso não tivesse um especialista disponível, analisaria a distribuição para ver a viabilidade de imputar alguns dados com pouco prejuízo para a base. Mas são decisões que demandam análise prévia do contexto e todo caso é um caso.
+
+
+4. O que é uma matriz de confusão e como ela é usada para avaliar o
+desempenho de um modelo preditivo?
+
+A matriz de confusão é usada para avaliar o desempenho individual do desempenho do modelo para cada classe do problema. Por exemplo, uma simples acurácia de 98% poderia nos levar a crer que o desempenho do modelo está bom mas, com uma análise aprofundada da matriz de confusão, poderíamos verificar que em uma determinada classe, ou conjuntos de classes o modelo não conseguiu convergir bem e teve uma precisão de 50%. O que poderia maquiar o problema e levar a falhas que poderiam causar problemas graves no cenário da aplicação, sobretudo se for em uma área que a falha pode causar graves consequências para as pessoas.
+
+
+
+5. Em quais áreas (tais como construção civil, agricultura, saúde, manufatura,
+entre outras) você acha mais interessante aplicar algoritmos de machine
+learning?
+
+
+Eu considero machine learning interessante em praticamente qualquer área, porque é uma técnica que pode ser adaptada para resolver problemas muito diferentes. No meu caso, já tive mais contato com  área de saúde, transmissão de rádio e no meio ambiente. Mas também acredito que pra robótica também seja muito interessante com as mais diversas inovações que estão sendo descobertas.
